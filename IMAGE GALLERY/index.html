@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Advanced Image Gallery</h1>
+        <input type="text" id="search" placeholder="Search images...">
+    </header>
+    <div class="gallery-container">
+        <div class="gallery" id="gallery">
+            <!-- Images will be added dynamically with JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modal for larger image view -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <button class="nav-btn prev">&lt;</button>
+        <img class="modal-content" id="modal-img">
+        <button class="nav-btn next">&gt;</button>
+        <div id="caption"></div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
